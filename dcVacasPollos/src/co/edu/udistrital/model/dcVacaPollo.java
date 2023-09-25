@@ -15,12 +15,9 @@ public class dcVacaPollo {
 		numPollos = 0;
 	}
 
-	public dcVacaPollo(int NAnimales, int NPatas, int numVacas, int var1, int numPollos) {
+	public dcVacaPollo(int NAnimales, int NPatas) {
 		this.NAnimales = NAnimales;
 		this.NPatas = NPatas;
-		this.numVacas = numVacas;
-		this.var1 = var1;
-		this.numPollos = numPollos;
 	}
 
 	public int getNAnimales() {
