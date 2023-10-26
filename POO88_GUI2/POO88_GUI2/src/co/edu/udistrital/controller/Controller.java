@@ -40,11 +40,17 @@ public class Controller implements ActionListener{
 			vista.getPr().getResultados().setText(acum  + x + " / " + y + " = " + Operaciones.dividir(x, y) + "\n");
 		}
 	}catch(NumberFormatException ex) {
+		String acum = vista.getPr().getResultados().getText();
 		vista.getPd().getCnum1().setText("");
 		vista.getPd().getCnum2().setText("");
-		vista.getPr().getResultados().setText("Error: Digite un valor númerico \n");
+		vista.getPr().getResultados().setText(acum + "Error: Digite un valor númerico \n");
+	}catch(Cero err) {
+		String acum = vista.getPr().getResultados().getText();
+		vista.getPd().getCnum2().setText("");
+		vista.getPr().getResultados().setText(acum + "Error: No se puede dividir por cero. \n");
 	}
 	}
+	
 	
 	
 	

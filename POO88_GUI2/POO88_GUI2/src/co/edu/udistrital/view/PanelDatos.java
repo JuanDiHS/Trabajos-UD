@@ -41,12 +41,14 @@ public class PanelDatos extends JPanel{
 		add(enum1);
 		
 		cnum1 = new JTextField();
+		cnum1.setHorizontalAlignment(JTextField.CENTER);
 		add(cnum1);
 		
 		enum2 = new JLabel("N2:");
 		add(enum2);
 		
 		cnum2 = new JTextField();
+		cnum2.setHorizontalAlignment(JTextField.CENTER);
 		add(cnum2);
 		
 		bsumar = new JButton("Sumar");
