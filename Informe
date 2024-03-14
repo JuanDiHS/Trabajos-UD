@@ -1,0 +1,6 @@
+To create my programm, in first, I create the necesary classes based in the requeriments that the WorksShop ask, then I create the methods to calculate the
+gas comsumption, and last, we create the main method, that´s the program logic, in this main method I ask the options, and depending of the option the programm
+can create engines, vehicles, show all engines or show all vehicles.
+For the WorkShop about vehicle constructor company, I found many problems like do the loop for the option´s menu, for give solution
+to this problem, I create a while loop and I give him a True Value because this form a infinite loop, and for finished this loop I put a condition
+that says if the option is equal to five, the loop ends.
